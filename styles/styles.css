@@ -1,6 +1,39 @@
-H1{
-    color:#ffff00;
+H1 {
+    color: #ffff00;
 }
-a:link{
-    color:#ffff11;
+
+ul{
+    background-color:cornflowerblue;
+    list-style-type:none;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+li{
+    float:right;
+
+}
+
+li a{
+    display:block;
+    padding:15px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:midnightblue;
+}
+table{
+    width:100%;
+}
+table,th,td{
+    padding:15px;
+    border-collapse:collapse;
+}
+caption{
+    color:#f00000;
+    font-family: "Agency FB",Serif;
+    font-size:45px;
+
 }
